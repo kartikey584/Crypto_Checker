@@ -36,10 +36,13 @@ body{
 .coins{
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding : 0.5em;
   width : 100%;
   height : 80px;
-  
+  font-family: poppins;
+  font-size: 1em;
+  border-bottom : 1px solid white;
 }
 .coinImage{
   margin-right: 20px;
@@ -49,21 +52,48 @@ body{
 }
 
 .coinName{
-  display: flex;
-  font-family: poppins;
-  font-size: 1em;
-  align-items: center;
-  justify-content: center;
   color:white;
-  margin-right: 20px;
+  margin-right: 70px;
+  width : 100px;
 }
 
 .coinSymbol{
-  display: flex;
-  font-family: poppins;
-  font-size: 1em;
-  align-items: center;
-  justify-content: center;
   color:white;
-  margin-right: 20px;
+  margin-right: 70px;
+  width : 50px
+}
+.coinPrice{ 
+  color:white;
+  margin-right: 70px;
+  width : 100px
+
+}
+.coinMktcap{
+  color:white;
+  margin-right: 70px;
+  width : 210px
+}
+
+.red{
+  color : red;
+  margin-right: 70px;
+  width : 100px
+}
+
+.green{
+  color : green;
+  margin-right: 70px;
+  width : 100px
+}
+
+.button{
+  border-radius : 10px;
+  background-color : #083358;
+  color : white;
+  width : 100px;
+  height : 30px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color : #0D63A5;
 }
