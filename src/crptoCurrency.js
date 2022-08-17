@@ -11,7 +11,6 @@ const CryptoCurrency = props => {
                 <span className = 'coinPrice' >${current_price}</span>
                 <span className = {price_change_percentage_24h < 0 ? 'red' : 'green' }>{price_change_percentage_24h}%</span>
                 <span className = 'coinMktcap'>Mkt Cap : {market_cap}</span>
-                <button className = 'button'>Know More!</button>
             </div>
         );
     })
